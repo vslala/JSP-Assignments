@@ -1,3 +1,5 @@
+<%@ taglib prefix="s" uri="WEB-INF/customTags.tld" %>
+<s:validateSession/>
 <jsp:useBean id="user" scope="session" class="com.bitwise.jsp.problemone.User"></jsp:useBean>
 <%@include file="layout/_header.jsp" %>
 

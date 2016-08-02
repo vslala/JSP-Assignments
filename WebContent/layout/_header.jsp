@@ -1,10 +1,5 @@
-<%
-	if (session.getAttribute("username") == null || 
-			session.getAttribute("username").equals("")
-			) {
-		response.sendRedirect("/JSPAssignment/login.jsp");
-	}
-%>
+
+
 
 <!DOCTYPE html>
 <html>

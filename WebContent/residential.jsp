@@ -1,3 +1,5 @@
+<%@ taglib prefix="s" uri="WEB-INF/customTags.tld" %>
+<s:validateSession/>
 <%@include file="layout/_header.jsp"%>
 
 <div class="container">
